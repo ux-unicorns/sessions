@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero1{
+    height: 90vh;
+}
+.hero2{
+    height: 60vh;
+}
+.hero1 p{
+    line-height: 2em;
+}
+.space{
+    margin-top: 15em;
+}
+@media (max-width: 800px) {
+    .hero1{
+        height: 100vh;
+    }
+    .hero2{
+        display: none;
+    }
+    .intro{
+        width: 100%;
+        padding-left: 1em;
+    }
+    .intro h1{
+        font-size: 1.5rem
+    }
+    .intro-picture{
+        top: 70%;
+    }
+    .intro-img{
+        width: 60%;
+    }
+}

@@ -8,13 +8,13 @@
 
     <link rel="stylesheet" href="./output.css">
 
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
     <header>
-        <div class="grid grid-cols-12">
+        <div class="grid lg:grid-cols-12">
             <div class="col-span-10 bg-black hero1">
-                <div class="py-32 px-20 w-[70%]">
+                <div class="py-32 lg:px-20 w-[70%] intro">
                     <h1 class="text-white text-5xl font-bold">
                         Get the next <br> level developments. 
                     </h1>
@@ -39,7 +39,14 @@
             </div>
         </div>
 
-        <nav class="top-7 uppercase font-bold  space-y-7 absolute text-white flex justify-end w-full pr-20">
+
+        <nav class="top-7 uppercase font-bold  space-y-7 absolute text-white flex justify-end w-full md:pr-20">
+            <div class="pt-3 pr-3 cursor-pointer md:hidden" id="burger">
+                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>                                           
+            </div> 
+
             <ul class="hidden uppercase font-bold  flex-col items-start space-y-7 absolute top-12 bg-element/80 w-full px-2 py-4 md:flex md:w-auto md:flex-row md:items-center md:space-x-8 md:space-y-0 md:relative md:top-0 md:bg-transparent md:py-0" id="menu">
                 <li>
                     <a href="./home.html" class="hover:text-primary">
@@ -77,9 +84,13 @@
 
         </nav>
 
-        <div class="absolute top-[20%] flex justify-end w-full pr-10">
+
+        <div class="absolute top-[20%] flex justify-end w-full lg:pr-10 intro-picture">
             <img src="../Images/intro-img.png" alt="intro" class="intro-img w-[32%]">
         </div>
     </header>
+
+
+    <script src="../module/menu.js"></script>
 </body>
 </html>

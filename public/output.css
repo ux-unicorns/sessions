@@ -716,6 +716,10 @@ video {
   width: 32%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -959,6 +963,14 @@ video {
   padding-right: 7rem;
 }
 
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1048,6 +1060,10 @@ video {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1076,8 +1092,41 @@ video {
     background-color: transparent;
   }
 
+  .md\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md\:pr-20 {
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:top-7 {
+    top: 1.75rem;
+  }
+
+  .lg\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .lg\:pr-10 {
+    padding-right: 2.5rem;
   }
 }

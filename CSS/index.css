@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero1{
+    height: 90vh;
+}
+.hero2{
+    height: 60vh;
+}
+.hero1 p{
+    line-height: 2em;
+}

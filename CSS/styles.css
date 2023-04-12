@@ -23,10 +23,20 @@
 .partners p{
     line-height: 2em;
 }
-.testimonial hr{
-    color: #00D285;
-    width: 2em;
+h6{
+    position: relative;
+    margin-left: 50px;
 }
+h6::before{
+    content: " ";
+    display: inline-block;
+    height: 5px;
+    background: #00D285;
+    position: absolute;
+    width: 7%;
+    top: 50%;
+}
+  
 @media (max-width: 800px) {
     .hero1{
         height: 100%;

@@ -12,14 +12,27 @@
     line-height: 2em;
 }
 .space{
-    margin-top: 15em;
+    margin-top: 19em;
+}
+.services p{
+    line-height: 2em;
+}
+.partners{
+    background-color: #EBFAF4;
+}
+.partners p{
+    line-height: 2em;
+}
+.testimonial hr{
+    color: #00D285;
+    width: 2em;
 }
 @media (max-width: 800px) {
     .hero1{
-        height: 100vh;
+        height: 100%;
     }
     .hero2{
-        display: none;
+        width: full;
     }
     .intro{
         width: 100%;
@@ -32,6 +45,6 @@
         top: 70%;
     }
     .intro-img{
-        width: 60%;
+        width: 40%;
     }
 }

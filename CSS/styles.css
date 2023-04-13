@@ -23,18 +23,31 @@
 .partners p{
     line-height: 2em;
 }
+.testimonial{
+    background-color: color-mix(in srgb, #002FA6 7%, white)
+}
 h6{
     position: relative;
-    margin-left: 50px;
+    max-width: 200px;
+    text-align: center;
 }
 h6::before{
     content: " ";
-    display: inline-block;
-    height: 5px;
+    display: block;
+    height: 2px;
     background: #00D285;
     position: absolute;
-    width: 7%;
+    width: 15%;
     top: 50%;
+}
+.testimonial .testimony{
+    background-color: #E1E1E1;
+}
+.testimonial p{
+    line-height: 2em;
+}
+.testimonial span{
+    line-height: 2em;
 }
   
 @media (max-width: 800px) {

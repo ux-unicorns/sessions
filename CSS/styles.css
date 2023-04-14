@@ -49,18 +49,29 @@ h6::before{
 .testimonial span{
     line-height: 2em;
 }
+.service-entails .card{
+	background-color: #EBFAF4;
+}
+.card p{
+	line-height: 2em;
+}
+.work{
+	background-color: #EBFAF4;
+}
 
-.chatbox-wrapper {
+/* //chatbot */
+ .chatbox-wrapper {
 	position: fixed;
 	bottom: 2rem;
 	right: 2rem;
 	width: 4rem;
 	height: 4rem;
 }
+
 .chatbox-toggle {
 	width: 100%;
 	height: 100%;
-	background: var(--blue);
+	background: #00D285;
 	color: var(--white);
 	font-size: 2rem;
 	display: flex;
@@ -70,9 +81,11 @@ h6::before{
 	cursor: pointer;
 	transition: .2s;
 }
+
 .chatbox-toggle:active {
 	transform: scale(.9);
 }
+
 .chatbox-message-wrapper {
 	position: absolute;
 	bottom: calc(100% + 1rem);
@@ -184,7 +197,7 @@ h6::before{
 	box-shadow: .25rem .25rem 1.5rem rgba(0, 0, 0, .05);
 }
 .chatbox-message-item-time {
-	float: right;
+	/* float: right; */
 	font-size: .75rem;
 	margin-top: .5rem;
 	display: inline-block;
@@ -222,7 +235,7 @@ h6::before{
 	font-size: 1rem;
 	font-weight: 600;
 	text-align: center;
-}
+} 
 /* CHATBOX */
   
 @media (max-width: 800px) {

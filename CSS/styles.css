@@ -59,7 +59,8 @@ h6::before{
 	background-color: #EBFAF4;
 }
 .end {
-	background-color: black;
+	background: url('../Images/Group\ 8930.png') black ;
+    background-size: cover;
 }
 .end .fa-brands{
     color: white;
